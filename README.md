@@ -19,4 +19,4 @@
 
 1. Клонування репозиторію:
    ```bash
-   git clone https://github.com/your-username/java-collections.git
+   git clone https://github.com/user/javacp6.git
