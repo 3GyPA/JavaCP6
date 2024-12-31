@@ -4,10 +4,16 @@ import java.util.*;
  * Головний клас для демонстрації роботи з колекцією.
  */
 public class Main {
+    /**
+     * Головний метод для виконання програми.
+     * Створює колекцію композицій, додає елементи та виводить їх.
+     *
+     * @param args аргументи командного рядка
+     */
     public static void main(String[] args) {
         // Створення колекції з одним елементом
         MusicComposition rockSong = new RockComposition("We Will Rock You", 3.5);
-        SinglyLinkedList<MusicComposition> album = new SinglyLinkedList<>(rockSong);
+        MyList<MusicComposition> album = new SinglyLinkedList<>(rockSong);
 
         // Додавання інших композицій до колекції
         album.add(new ClassicalComposition("Für Elise", 2.5));
